@@ -11,16 +11,23 @@
   <meta property="og:title" content="Szopa Garage - Regeneracja Reflektorów Samochodowych">
   <meta property="og:description" content="Profesjonalny serwis regeneracji i modyfikacji reflektorów. 500+ realizacji, 8+ lat doświadczenia. Zapraszamy!">
   <meta property="og:url" content="https://szopagarage.pl">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1493195671846-44a918bb0c91?w=1200&amp;h=630&amp;fit=crop">
+  <meta property="og:image" content="https://szopagarage.pl/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Szopa Garage - Regeneracja Reflektorów">
   <meta name="twitter:description" content="Profesjonalny serwis regeneracji i modyfikacji reflektorów samochodowych">
   <title>Szopa Garage - Regeneracja &amp; Modyfikacja Reflektorów | Solca Wielka</title>
   <link rel="canonical" href="https://szopagarage.pl">
+
+  <!-- Favicon JPG -->
+  <link rel="icon" type="image/jpeg" href="favicon.jpg">
+  <link rel="shortcut icon" href="favicon.jpg" type="image/jpeg">
+
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
   <script src="/_sdk/element_sdk.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+ </head>
+
   <style>
     html { height: 100%; }
     body { height: 100%; margin: 0; }
@@ -249,16 +256,14 @@
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
  <body class="h-full font-body">
-  <div id="app-wrapper" class="w-full h-full overflow-auto" style="background-color: #0a0a0a; color: #e8e8e8;"><!-- Navigation -->
+  <div id="app-wrapper" class="w-full h-full overflow-auto" style="background-color: #0a0a0a; color: #e8e8e8;">
+   <!-- Navigation -->
    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300" id="navbar" style="background: rgba(10,10,10,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,165,0,0.1);">
-    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between" role="navigation">
-     <a href="#hero" class="flex items-center gap-3 group"> <span class="font-display text-2xl tracking-wider" id="nav-brand">SZOPA GARAGE</span> </a>
-     <div class="hidden md:flex items-center gap-8">
-      <a href="#uslugi" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Usługi</a> <a href="#onas" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">O nas</a> <a href="#realizacje" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Realizacje</a> <a href="#kontakt" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Kontakt</a> <a href="#kontakt" class="px-5 py-2 rounded-lg text-sm font-semibold tracking-wide uppercase transition-all duration-300 hover:scale-105" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;">Umów wizytę</a>
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between" role="navigation"><a href="#hero" class="flex items-center gap-3 group"> <span class="font-display text-2xl tracking-wider" id="nav-brand">SZOPA GARAGE</span> </a>
+     <div class="hidden md:flex items-center gap-8"><a href="#uslugi" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Usługi</a> <a href="#onas" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">O nas</a> <a href="#realizacje" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Realizacje</a> <a href="#kontakt" class="nav-link text-sm font-medium tracking-wide uppercase opacity-80 hover:opacity-100 transition-opacity" style="color: #e8e8e8;">Kontakt</a> <a href="#kontakt" class="px-5 py-2 rounded-lg text-sm font-semibold tracking-wide uppercase transition-all duration-300 hover:scale-105" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;">Umów wizytę</a>
      </div><button id="mobile-menu-btn" class="md:hidden p-2" onclick="toggleMobile()"> <i data-lucide="menu" style="width:24px;height:24px;"></i> </button>
     </nav><!-- Mobile menu -->
-    <div id="mobile-menu" class="hidden md:hidden px-6 pb-6 space-y-4">
-     <a href="#uslugi" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Usługi</a> <a href="#onas" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">O nas</a> <a href="#realizacje" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Realizacje</a> <a href="#kontakt" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Kontakt</a> <a href="#kontakt" onclick="closeMobile()" class="inline-block px-5 py-2 rounded-lg text-sm font-semibold tracking-wide uppercase" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;">Umów wizytę</a>
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-6 space-y-4"><a href="#uslugi" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Usługi</a> <a href="#onas" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">O nas</a> <a href="#realizacje" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Realizacje</a> <a href="#kontakt" onclick="closeMobile()" class="block text-sm font-medium tracking-wide uppercase opacity-80">Kontakt</a> <a href="#kontakt" onclick="closeMobile()" class="inline-block px-5 py-2 rounded-lg text-sm font-semibold tracking-wide uppercase" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;">Umów wizytę</a>
     </div>
    </header><!-- Hero Section -->
    <section id="hero" class="scroll-section relative w-full flex items-center overflow-hidden" style="min-height: 100%; background: radial-gradient(ellipse at 30% 50%, rgba(255,165,0,0.08) 0%, transparent 60%), #0a0a0a;">
@@ -266,21 +271,23 @@
     <div class="hero-particles" id="hero-particles"></div>
     <div class="relative z-10 max-w-7xl mx-auto px-6 py-32 md:py-0 w-full flex flex-col items-center justify-center gap-12 min-h-full">
      <div class="flex-1 text-center">
-      <div class="anim-fade-up delay-1 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase mb-6" style="border: 1px solid rgba(255,165,0,0.3); color: #FFA500;"><span class="w-2 h-2 rounded-full" style="background: #FFA500; animation: glow 2s ease-in-out infinite;"></span> Profesjonalny serwis reflektorów
+      <div class="anim-fade-up delay-1 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase mb-6" style="border: 1px solid rgba(255,165,0,0.3); color: #FFA500;">
+       <span class="w-2 h-2 rounded-full" style="background: #FFA500; animation: glow 2s ease-in-out infinite;"></span> Profesjonalny serwis reflektorów
       </div>
-      <div id="status-badge" class="anim-fade-up delay-1 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase mb-6" style="border: 1px solid rgba(34,197,94,0.3); color: #22c55e;"><span class="w-2 h-2 rounded-full" style="background: #22c55e; animation: glow 2s ease-in-out infinite;"></span> <span id="status-text">OTWARTE</span>
+      <div id="status-badge" class="anim-fade-up delay-1 inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-widest uppercase mb-6" style="border: 1px solid rgba(34,197,94,0.3); color: #22c55e;">
+       <span class="w-2 h-2 rounded-full" style="background: #22c55e; animation: glow 2s ease-in-out infinite;"></span> <span id="status-text">OTWARTE</span>
       </div>
       <div class="anim-fade-up delay-2">
        <h1 class="font-display leading-none tracking-wide" id="hero-title" style="font-size: clamp(3rem, 8vw, 6rem);">SZOPA GARAGE</h1>
       </div>
       <p class="anim-fade-up delay-3 font-display tracking-widest uppercase mb-6" id="hero-subtitle" style="font-size: clamp(1rem, 3vw, 1.8rem); color: #FFA500;">Regeneracja &amp; Modyfikacja Reflektorów</p>
       <p class="anim-fade-up delay-4 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-10 opacity-70" id="hero-description">Przywracamy blask Twoim reflektorom. Profesjonalna regeneracja, modyfikacja optyki oraz indywidualne projekty świetlne dla Twojego samochodu.</p>
-      <div class="anim-fade-up delay-5 flex flex-col sm:flex-row gap-4 justify-center">
-       <a href="#uslugi" class="px-8 py-4 rounded-xl font-semibold tracking-wide text-base transition-all duration-300 hover:scale-105 text-center" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;"> Poznaj nasze usługi </a> <a href="#realizacje" class="px-8 py-4 rounded-xl font-semibold tracking-wide text-base transition-all duration-300 hover:scale-105 text-center" style="border: 1px solid rgba(255,165,0,0.4); color: #FFA500;"> Zobacz realizacje </a>
+      <div class="anim-fade-up delay-5 flex flex-col sm:flex-row gap-4 justify-center"><a href="#uslugi" class="px-8 py-4 rounded-xl font-semibold tracking-wide text-base transition-all duration-300 hover:scale-105 text-center" style="background: linear-gradient(135deg, #FFA500, #FF6B00); color: #0a0a0a;"> Poznaj nasze usługi </a> <a href="#realizacje" class="px-8 py-4 rounded-xl font-semibold tracking-wide text-base transition-all duration-300 hover:scale-105 text-center" style="border: 1px solid rgba(255,165,0,0.4); color: #FFA500;"> Zobacz realizacje </a>
       </div>
      </div>
     </div><!-- Scroll indicator -->
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40 anim-fade-in delay-7"><span class="text-xs tracking-widest uppercase">Przewiń</span> <i data-lucide="chevron-down" style="width:20px;height:20px;"></i>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40 anim-fade-in delay-7">
+     <span class="text-xs tracking-widest uppercase">Przewiń</span> <i data-lucide="chevron-down" style="width:20px;height:20px;"></i>
     </div>
    </section><!-- Services Section -->
    <section id="uslugi" class="scroll-section w-full py-24 relative" style="background: linear-gradient(180deg, #0a0a0a 0%, #0f0f0f 100%);">
@@ -289,37 +296,46 @@
       <p class="text-xs font-semibold tracking-[0.3em] uppercase mb-3" style="color: #FFA500;">Co robimy</p>
       <h2 class="font-display text-5xl md:text-6xl tracking-wide">NASZE USŁUGI</h2>
      </div>
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="services-grid"><!-- Service 1 -->
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="services-grid">
+      <!-- Service 1 -->
       <div class="service-card beam-effect rounded-2xl p-8 flex flex-col items-start gap-5" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);"><i data-lucide="refresh-cw" style="width:28px;height:28px;color:#FFA500;"></i>
+       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);">
+        <i data-lucide="refresh-cw" style="width:28px;height:28px;color:#FFA500;"></i>
        </div>
        <h3 class="font-display text-2xl tracking-wider" id="service-1-title">REGENERACJA REFLEKTORÓW</h3>
        <p class="text-sm leading-relaxed opacity-60">Kompleksowa regeneracja kloszy, usuwanie matowości i przywracanie fabrycznego wyglądu lamp samochodowych.</p>
-       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;"><span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;">
+        <span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
        </div>
       </div><!-- Service 2 -->
       <div class="service-card beam-effect rounded-2xl p-8 flex flex-col items-start gap-5" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);"><i data-lucide="settings" style="width:28px;height:28px;color:#FFA500;"></i>
+       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);">
+        <i data-lucide="settings" style="width:28px;height:28px;color:#FFA500;"></i>
        </div>
        <h3 class="font-display text-2xl tracking-wider" id="service-2-title">MODYFIKACJA OPTYKI</h3>
        <p class="text-sm leading-relaxed opacity-60">Indywidualne modyfikacje reflektorów, zmiana koloru soczewek, montaż diodowych ringów i elementów dekoracyjnych.</p>
-       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;"><span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;">
+        <span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
        </div>
       </div><!-- Service 3 -->
       <div class="service-card beam-effect rounded-2xl p-8 flex flex-col items-start gap-5" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);"><i data-lucide="sparkles" style="width:28px;height:28px;color:#FFA500;"></i>
+       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);">
+        <i data-lucide="sparkles" style="width:28px;height:28px;color:#FFA500;"></i>
        </div>
        <h3 class="font-display text-2xl tracking-wider" id="service-3-title">POLEROWANIE LAMP</h3>
        <p class="text-sm leading-relaxed opacity-60">Profesjonalne polerowanie kloszy z zabezpieczeniem ceramicznym dla długotrwałej ochrony i przejrzystości.</p>
-       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;"><span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;">
+        <span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
        </div>
       </div><!-- Service 4 -->
       <div class="service-card beam-effect rounded-2xl p-8 flex flex-col items-start gap-5" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);"><i data-lucide="disc" style="width:28px;height:28px;color:#FFA500;"></i>
+       <div class="w-14 h-14 rounded-xl flex items-center justify-center" style="background: rgba(255,165,0,0.1);">
+        <i data-lucide="disc" style="width:28px;height:28px;color:#FFA500;"></i>
        </div>
        <h3 class="font-display text-2xl tracking-wider" id="service-4-title">WYMIANA SOCZEWEK</h3>
        <p class="text-sm leading-relaxed opacity-60">Wymiana wypalonych i uszkodzonych soczewek bi-xenon oraz bi-LED na nowe, wysokiej jakości elementy optyczne.</p>
-       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;"><span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+       <div class="mt-auto pt-4 flex items-center gap-2 text-sm font-medium" style="color: #FFA500;">
+        <span>Więcej</span> <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
        </div>
       </div>
      </div>
@@ -360,7 +376,8 @@
        <div class="rounded-2xl overflow-hidden" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
         <div class="p-10 space-y-6">
          <div class="flex items-start gap-4">
-          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);"><i data-lucide="shield-check" style="width:20px;height:20px;color:#FFA500;"></i>
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);">
+           <i data-lucide="shield-check" style="width:20px;height:20px;color:#FFA500;"></i>
           </div>
           <div>
            <h4 class="font-semibold text-lg mb-1">Gwarancja jakości</h4>
@@ -368,7 +385,8 @@
           </div>
          </div>
          <div class="flex items-start gap-4">
-          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);"><i data-lucide="clock" style="width:20px;height:20px;color:#FFA500;"></i>
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);">
+           <i data-lucide="clock" style="width:20px;height:20px;color:#FFA500;"></i>
           </div>
           <div>
            <h4 class="font-semibold text-lg mb-1">Szybka realizacja</h4>
@@ -376,7 +394,8 @@
           </div>
          </div>
          <div class="flex items-start gap-4">
-          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);"><i data-lucide="wrench" style="width:20px;height:20px;color:#FFA500;"></i>
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);">
+           <i data-lucide="wrench" style="width:20px;height:20px;color:#FFA500;"></i>
           </div>
           <div>
            <h4 class="font-semibold text-lg mb-1">Profesjonalny sprzęt</h4>
@@ -384,7 +403,8 @@
           </div>
          </div>
          <div class="flex items-start gap-4">
-          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);"><i data-lucide="thumbs-up" style="width:20px;height:20px;color:#FFA500;"></i>
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style="background: rgba(255,165,0,0.15);">
+           <i data-lucide="thumbs-up" style="width:20px;height:20px;color:#FFA500;"></i>
           </div>
           <div>
            <h4 class="font-semibold text-lg mb-1">Indywidualne podejście</h4>
@@ -403,65 +423,55 @@
       <p class="text-xs font-semibold tracking-[0.3em] uppercase mb-3" style="color: #FFA500;">Portfolio</p>
       <h2 class="font-display text-5xl md:text-6xl tracking-wide">NASZE REALIZACJE</h2>
      </div>
-     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- Project 1: BMW E90 -->
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-6"><!-- Project 1: BMW E90 -->
       <div class="rounded-2xl overflow-hidden relative" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="before-after-slider">
-        <!-- Before image -->
-        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1515;">
-         <img src="beforeSzopaV1.png" alt="BMW E90 reflektor przed regeneracją - widok matowych kloszy" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #2a2015, #1a1010)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
+       <div class="before-after-slider"><!-- Before image -->
+        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1515;"><img src="beforeSzopaV1.png" alt="BMW E90 reflektor przed regeneracją - widok matowych kloszy" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #2a2015, #1a1010)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
         </div><!-- After image -->
-        <div class="after-image" style="width: 50%;">
-         <img src="AfterSzopaV1.png" alt="BMW E90 reflektor po regeneracji - błyszczące klosz" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #1a1205, #0f0a02)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
+        <div class="after-image" style="width: 50%;"><img src="AfterSzopaV1.png" alt="BMW E90 reflektor po regeneracji - błyszczące klosz" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #1a1205, #0f0a02)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
         </div><!-- Slider handle -->
         <div class="slider-handle"></div><!-- Slider button -->
-        <div class="slider-button">
-         <i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
+        <div class="slider-button"><i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
         </div>
        </div>
        <div class="p-6 border-t" style="border-color: rgba(255,165,0,0.1);">
         <h4 class="font-display text-xl tracking-wider mb-1">BMW E90</h4>
-        <div class="flex flex-wrap gap-2 mt-3"><span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Regeneracja</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Polerowanie</span>
+        <div class="flex flex-wrap gap-2 mt-3">
+         <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Regeneracja</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Polerowanie</span>
         </div>
        </div>
       </div><!-- Project 2: BMW F10 -->
       <div class="rounded-2xl overflow-hidden relative" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="before-after-slider">
-        <!-- Before image -->
-        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1515;">
-         <img src="beforeSzopaV2.png" alt="Reflektor BMW F10 przed regeneracją" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #1a1515, #0d1010)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
+       <div class="before-after-slider"><!-- Before image -->
+        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1515;"><img src="beforeSzopaV2.png" alt="Reflektor BMW F10 przed regeneracją" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #1a1515, #0d1010)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
         </div><!-- After image -->
-        <div class="after-image" style="width: 50%;">
-         <img src="afterSzopaV2.png" alt="Reflektor BMW F10 po regeneracji" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #0d1117, #070a0f)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
+        <div class="after-image" style="width: 50%;"><img src="afterSzopaV2.png" alt="Reflektor BMW F10 po regeneracji" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #0d1117, #070a0f)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
         </div><!-- Slider handle -->
         <div class="slider-handle"></div><!-- Slider button -->
-        <div class="slider-button">
-         <i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
+        <div class="slider-button"><i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
         </div>
        </div>
        <div class="p-6 border-t" style="border-color: rgba(255,165,0,0.1);">
         <h4 class="font-display text-xl tracking-wider mb-1">BMW F10</h4>
-        <div class="flex flex-wrap gap-2 mt-3"><span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Poprawka wady fabrycznego kleju</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Uszczelnianie</span>
+        <div class="flex flex-wrap gap-2 mt-3">
+         <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Poprawka wady fabrycznego kleju</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Uszczelnianie</span>
         </div>
        </div>
       </div><!-- Project 3: BMW E60/E61 -->
       <div class="rounded-2xl overflow-hidden relative" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
-       <div class="before-after-slider">
-        <!-- Before image -->
-        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1a10;">
-         <img src="beforeSzopaV3.png" alt="Reflektor BMW E60/E61 przed regeneracją" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #1a1a10, #0a0a05)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
+       <div class="before-after-slider"><!-- Before image -->
+        <div class="aspect-[4/3] relative overflow-hidden" style="background: #1a1a10;"><img src="beforeSzopaV3.png" alt="Reflektor BMW E60/E61 przed regeneracją" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.background='linear-gradient(135deg, #1a1a10, #0a0a05)'; this.style.display='none';"> <span class="before-label slider-label">PRZED</span>
         </div><!-- After image -->
-        <div class="after-image" style="width: 50%;">
-         <img src="afterSzopaV3.png" alt="Reflektor BMW E60/E61 po regeneracji" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #110f05, #0a0903)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
+        <div class="after-image" style="width: 50%;"><img src="afterSzopaV3.png" alt="Reflektor BMW E60/E61 po regeneracji" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(1.2) contrast(1.1);" onerror="this.style.background='linear-gradient(135deg, #110f05, #0a0903)'; this.style.display='none';"> <span class="after-label slider-label">PO</span>
         </div><!-- Slider handle -->
         <div class="slider-handle"></div><!-- Slider button -->
-        <div class="slider-button">
-         <i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
+        <div class="slider-button"><i data-lucide="chevrons-right" style="width:20px;height:20px;color:#0a0a0a;"></i>
         </div>
        </div>
        <div class="p-6 border-t" style="border-color: rgba(255,165,0,0.1);">
         <h4 class="font-display text-xl tracking-wider mb-1">BMW E60/E61</h4>
-        <div class="flex flex-wrap gap-2 mt-3"><span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Montaż reflektorów BI-LED</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Ringi cotton</span>
+        <div class="flex flex-wrap gap-2 mt-3">
+         <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Montaż reflektorów BI-LED</span> <span class="text-xs px-3 py-1 rounded-full" style="background: rgba(255,165,0,0.1); color: #FFA500;">Ringi cotton</span>
         </div>
        </div>
       </div>
@@ -474,10 +484,12 @@
       <p class="text-xs font-semibold tracking-[0.3em] uppercase mb-3" style="color: #FFA500;">Opinie klientów</p>
       <h2 class="font-display text-5xl md:text-6xl tracking-wide">CO MÓWIĄ O NAS</h2>
      </div><!-- Reviews Grid -->
-     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="reviews-container"><!-- Review 1 -->
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="reviews-container">
+      <!-- Review 1 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Profesjonalny serwis, szybka realizacja i świetny wynik. Moje reflektory wyglądają jak nowe. Polecam!</p>
@@ -488,7 +500,8 @@
       </div><!-- Review 2 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Modyfikacja reflektorów wykonana na najwyższym poziomie. Zespół bardzo pomocny w doborze rozwiązań.</p>
@@ -499,7 +512,8 @@
       </div><!-- Review 3 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Polecam każdemu! Osoby pracujące tam wiedzą co robią. Efekt zadziwiający, cena uczciwa.</p>
@@ -510,7 +524,8 @@
       </div><!-- Review 4 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Kawał roboty. Wszystko zostało wykonane według mojego pomysłu. Fachowcy, polecam serdecznie!</p>
@@ -521,7 +536,8 @@
       </div><!-- Review 5 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Świetne usługi, fachowe podejście. Reflektory mojego BMW wyglądają fantastycznie. Dziękuję!</p>
@@ -532,7 +548,8 @@
       </div><!-- Review 6 -->
       <div class="rounded-2xl p-8 flex flex-col gap-4" style="background: #141414; border: 1px solid rgba(255,165,0,0.1);">
        <div class="flex items-center gap-2">
-        <div class="flex gap-1"><i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
+        <div class="flex gap-1">
+         <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i> <i data-lucide="star" style="width:16px;height:16px;color:#FFA500;fill:#FFA500;"></i>
         </div><span class="text-xs opacity-60">5.0</span>
        </div>
        <p class="text-sm leading-relaxed opacity-80">Najlepszy serwis reflektorów w Krakowie. Przychodzę tu zawsze, zawsze zadowolony z efektu.</p>
@@ -553,51 +570,45 @@
       <p class="text-xs font-semibold tracking-[0.3em] uppercase mb-3" style="color: #FFA500;">Kontakt</p>
       <h2 class="font-display text-5xl md:text-6xl tracking-wide">SKONTAKTUJ SIĘ</h2>
      </div>
-     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-      <a href="tel:+48576663566" class="group rounded-2xl p-8 text-center flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-2" style="background: linear-gradient(135deg, rgba(255,165,0,0.1), rgba(255,107,0,0.05)); border: 1px solid rgba(255,165,0,0.15);">
-       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);"><i data-lucide="phone" style="width:28px;height:28px;color:#0a0a0a;"></i>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16"><a href="tel:+48576663566" class="group rounded-2xl p-8 text-center flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-2" style="background: linear-gradient(135deg, rgba(255,165,0,0.1), rgba(255,107,0,0.05)); border: 1px solid rgba(255,165,0,0.15);">
+       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);">
+        <i data-lucide="phone" style="width:28px;height:28px;color:#0a0a0a;"></i>
        </div>
        <div>
         <h4 class="font-display text-xl tracking-wider mb-1">ZADZWOŃ</h4>
         <p class="text-lg font-semibold" style="color: #FFA500;" id="contact-phone-link">+48 576 663 566</p>
-        <p class="text-xs opacity-50 mt-2">Dostępni pn-pt 9:00-17:00</p>
+        <p class="text-xs opacity-50 mt-2">Dostępni pn-pt 10:00-17:00</p>
        </div></a> <a href="mailto:kontakt@szopagarage.pl" class="group rounded-2xl p-8 text-center flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-2" style="background: linear-gradient(135deg, rgba(255,165,0,0.1), rgba(255,107,0,0.05)); border: 1px solid rgba(255,165,0,0.15);">
-       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);"><i data-lucide="mail" style="width:28px;height:28px;color:#0a0a0a;"></i>
+       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);">
+        <i data-lucide="mail" style="width:28px;height:28px;color:#0a0a0a;"></i>
        </div>
        <div>
         <h4 class="font-display text-xl tracking-wider mb-1">NAPISZ</h4>
         <p class="text-lg font-semibold" style="color: #FFA500;" id="contact-email-link">patkaz4@wp.pl</p>
         <p class="text-xs opacity-50 mt-2">Odpowiemy do 24 godzin</p>
-       </div></a> <a href="#" onclick="event.preventDefault(); window.open('https://maps.google.com/?q=ul.+Warsztatowa+12+Kraków', '_blank')" class="group rounded-2xl p-8 text-center flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-2" style="background: linear-gradient(135deg, rgba(255,165,0,0.1), rgba(255,107,0,0.05)); border: 1px solid rgba(255,165,0,0.15);">
-       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);"><i data-lucide="map-pin" style="width:28px;height:28px;color:#0a0a0a;"></i>
+       </div></a> <a href="#" onclick="event.preventDefault(); window.open('https://maps.app.goo.gl/VvhYkWrKG3hACJiw6', '_blank')" class="group rounded-2xl p-8 text-center flex flex-col items-center gap-4 transition-all duration-300 hover:-translate-y-2" style="background: linear-gradient(135deg, rgba(255,165,0,0.1), rgba(255,107,0,0.05)); border: 1px solid rgba(255,165,0,0.15);">
+       <div class="w-16 h-16 rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110" style="background: linear-gradient(135deg, #FFA500, #FF6B00);">
+        <i data-lucide="map-pin" style="width:28px;height:28px;color:#0a0a0a;"></i>
        </div>
        <div>
         <h4 class="font-display text-xl tracking-wider mb-1">ODWIEDŹ NAS</h4>
-        <p class="text-lg font-semibold" style="color: #FFA500;" id="contact-address-link">ul. Warsztatowa 12, 95-035 Solca Wielka</p>
+        <p class="text-lg font-semibold" style="color: #FFA500;" id="contact-address-link">95-035 Solca Wielka</p>
         <p class="text-xs opacity-50 mt-2">Otwarte na mapach</p>
        </div></a>
      </div><!-- Social & Info -->
      <div class="max-w-2xl mx-auto text-center">
       <h3 class="font-display text-2xl tracking-wider mb-6">OBSERWUJ NAS</h3>
-      <div class="flex items-center justify-center gap-4 mb-8">
-       <a href="https://www.facebook.com/SzopaGarageDetailing/?locale=pl_PL" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="facebook" style="width:22px;height:22px;color:#0a0a0a;"></i> </a> <a href="https://www.instagram.com/szopagarage/" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="instagram" style="width:22px;height:22px;color:#0a0a0a;"></i> </a> <a href="#" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="youtube" style="width:22px;height:22px;color:#0a0a0a;"></i> </a>
+      <div class="flex items-center justify-center gap-4 mb-8"><a href="https://www.facebook.com/SzopaGarageDetailing/?locale=pl_PL" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="facebook" style="width:22px;height:22px;color:#0a0a0a;"></i> </a> <a href="https://www.instagram.com/szopagarage/" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="instagram" style="width:22px;height:22px;color:#0a0a0a;"></i> </a> <a href="#" class="w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: linear-gradient(135deg, #FFA500, #FF6B00);" target="_blank" rel="noopener noreferrer"> <i data-lucide="youtube" style="width:22px;height:22px;color:#0a0a0a;"></i> </a>
       </div>
       <p class="text-sm opacity-60 leading-relaxed">Śledź nasze realizacje i bądź na bieżąco ze wszystkimi nowościami w świecie modyfikacji reflektorów. Udostępniaj swoje projekty z tagiem <span style="color: #FFA500;">#SzopaGarage</span></p>
      </div>
     </div>
    </section><!-- Footer -->
    <footer class="w-full py-16" style="background: #060606; border-top: 1px solid rgba(255,165,0,0.08);">
-    <div class="max-w-7xl mx-auto px-6">
-     <!-- Main Footer Content -->
-     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 pb-12" style="border-bottom: 1px solid rgba(255,165,0,0.08);">
-      <!-- Brand Column -->
+    <div class="max-w-7xl mx-auto px-6"><!-- Main Footer Content -->
+     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 pb-12" style="border-bottom: 1px solid rgba(255,165,0,0.08);"><!-- Brand Column -->
       <div>
-       <div class="flex items-center gap-2 mb-4">
-        <div class="w-8 h-8 rounded-lg flex items-center justify-center" style="background: linear-gradient(135deg, #FFA500, #FF6B00);">
-         <svg width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="#0a0a0a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3" /><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
-         </svg>
-        </div><span class="font-display text-base tracking-wider">SZOPA GARAGE</span>
+       <div class="flex items-center gap-2 mb-4"><span class="font-display text-base tracking-wider">SZOPA GARAGE</span>
        </div>
        <p class="text-xs leading-relaxed opacity-60">Profesjonalny serwis regeneracji i modyfikacji reflektorów samochodowych. Przywracamy blask Twoim lampom.</p>
       </div><!-- Quick Links Column -->
@@ -613,8 +624,8 @@
       <div>
        <h4 class="font-semibold text-sm tracking-widest uppercase mb-4" style="color: #FFA500;">Godziny Otwarcia</h4>
        <ul class="space-y-2 text-xs">
-        <li class="flex justify-between"><span class="opacity-60">Pn-Pt:</span> <span id="footer-hours-weekday" style="color: #FFA500;">9:00 - 17:00</span></li>
-        <li class="flex justify-between"><span class="opacity-60">Sobota:</span> <span id="footer-hours-saturday" style="color: #FFA500;">10:00 - 14:00</span></li>
+        <li class="flex justify-between"><span class="opacity-60">Pn-Pt:</span> <span id="footer-hours-weekday" style="color: #FFA500;">10:00 - 17:00</span></li>
+        <li class="flex justify-between"><span class="opacity-60">Sobota:</span> <span id="footer-hours-saturday" style="color: #FFA500;">Zamknięte</span></li>
         <li class="flex justify-between"><span class="opacity-60">Niedziela:</span> <span id="footer-hours-sunday" style="color: #FFA500;">Zamknięte</span></li>
        </ul>
       </div><!-- Contact Column -->
@@ -623,15 +634,14 @@
        <ul class="space-y-3">
         <li><a href="tel:+48576663566" class="flex items-center gap-2 text-xs opacity-70 hover:opacity-100 transition-opacity" id="footer-phone"> <i data-lucide="phone" style="width:14px;height:14px;"></i> <span>+48 576 663 566</span> </a></li>
         <li><a href="mailto:patkaz4@wp.pl" class="flex items-center gap-2 text-xs opacity-70 hover:opacity-100 transition-opacity" id="footer-email"> <i data-lucide="mail" style="width:14px;height:14px;"></i> <span>patkaz4@wp.pl</span> </a></li>
-        <li><a href="#" onclick="event.preventDefault(); window.open('https://maps.google.com/?q=ul.+Warsztatowa+12+95-035+Solca+Wielka', '_blank')" class="flex items-center gap-2 text-xs opacity-70 hover:opacity-100 transition-opacity" id="footer-address"> <i data-lucide="map-pin" style="width:14px;height:14px;"></i> <span>ul. Warsztatowa 12<br>
+        <li><a href="#" onclick="event.preventDefault(); window.open('https://maps.app.goo.gl/VvhYkWrKG3hACJiw6', '_blank')" class="flex items-center gap-2 text-xs opacity-70 hover:opacity-100 transition-opacity" id="footer-address"> <i data-lucide="map-pin" style="width:14px;height:14px;"></i> <span>SzopaGarage<br>
             95-035 Solca Wielka</span> </a></li>
        </ul>
       </div>
      </div><!-- Bottom Footer -->
      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
       <p class="text-xs opacity-40">© 2024 Szopa Garage. Wszelkie prawa zastrzeżone.</p>
-      <div class="flex items-center gap-3">
-       <a href="https://www.facebook.com/SzopaGarageDetailing/?locale=pl_PL" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="facebook" style="width:18px;height:18px;color:#FFA500;"></i> </a> <a href="https://www.instagram.com/szopagarage/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="instagram" style="width:18px;height:18px;color:#FFA500;"></i> </a> <a href="#" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="youtube" style="width:18px;height:18px;color:#FFA500;"></i> </a>
+      <div class="flex items-center gap-3"><a href="https://www.facebook.com/SzopaGarageDetailing/?locale=pl_PL" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="facebook" style="width:18px;height:18px;color:#FFA500;"></i> </a> <a href="https://www.instagram.com/szopagarage/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="instagram" style="width:18px;height:18px;color:#FFA500;"></i> </a> <a href="#" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 hover:-translate-y-1" style="background: rgba(255,165,0,0.1);"> <i data-lucide="youtube" style="width:18px;height:18px;color:#FFA500;"></i> </a>
       </div>
      </div>
     </div>
@@ -658,8 +668,8 @@
       contact_phone: '+48 576 663 566',
       contact_email: 'patkaz4@wp.pl',
       contact_address: '95-035 Solca Wielka',
-      footer_hours_weekday: '9:00 - 17:00',
-      footer_hours_saturday: '10:00 - 14:00',
+      footer_hours_weekday: '10:00 - 17:00',
+      footer_hours_saturday: 'Zamknięte',
       footer_hours_sunday: 'Zamknięte'
     };
 
@@ -985,5 +995,5 @@
 
 
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9dd7bee6314d780b',t:'MTc3MzcwNTkyMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ddbf1ec665d780b',t:'MTc3Mzc0OTk1Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
